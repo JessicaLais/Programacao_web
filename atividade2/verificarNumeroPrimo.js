@@ -27,4 +27,4 @@ console.log(verificarNumeroPrimo(83));
 console.log(verificarNumeroPrimo(100));
 console.log(verificarNumeroPrimo(991));
 console.log(verificarNumeroPrimo(104729));
-console.log(verificarNumeroPrimo(143489077777));
+console.log(verificarNumeroPrimo(14348907));
