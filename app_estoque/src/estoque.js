@@ -1,6 +1,6 @@
 let produtos = [];
 
-function criarProduto(id,nome,qtd){
+function criarProduto(id, nome, qtd) {
     let p = {
         id: id,
         nome: nome,
@@ -8,22 +8,22 @@ function criarProduto(id,nome,qtd){
     };
     return p;
 }
-function adicionarProdutos(p){
+function adicionarProduto(p) {
     produtos.push(p);
 }
 
-function listarProdutos(){
+function listarProduto() {
     return produtos;
 }
 
-function removerProdutos(id){
-    produtos.filter((p) => {
+function removerProduto(id) {
+    produtos = produtos.filter((p) => {
         return p.id != id;
     });
 }
 module.exports = {
     criarProduto,
-    adicionarProdutos,
-    listarProdutos,
-    removerProdutos
+    adicionarProduto,
+    listarProduto,
+    removerProduto
 };
